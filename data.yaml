@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Hand-Gun', 'Knife', 'Lancher', 'Rifle', 'Short-Gun', 'Sniper', 'Sub-machine-gun']
+
+roboflow:
+  workspace: gun-lq9vv
+  project: weapon-detection-isfrz
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gun-lq9vv/weapon-detection-isfrz/dataset/3
